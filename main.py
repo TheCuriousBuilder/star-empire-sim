@@ -1,5 +1,5 @@
 """
-main.py  –  Space Empire Simulator  (main entry point)
+main.py  –  Star Empire Simulator  (main entry point)
 
 Controls:
   WASD / Arrow keys  – pan camera
@@ -29,7 +29,7 @@ from planet import BUILDINGS, PLANET_TYPES
 pygame.init()
 WIDTH, HEIGHT = 1280, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Empire Simulator")
+pygame.display.set_caption("Star Empire Simulator")
 clock = pygame.time.Clock()
 game_over = False
 winner = None
